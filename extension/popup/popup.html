@@ -1,0 +1,86 @@
+<html>
+<head>
+    <style>
+        :root {
+            --bg: #36393f;
+            --secondary: #40444b;
+            --accent: #5865f2;
+            --text: #ffffff;
+            --success: #43b581;
+            --error: #ed4245;
+        }
+        body {
+            width: 320px;
+            padding: 18px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Whitney', 'Helvetica Neue', sans-serif;
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 16px;
+        }
+        .label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #b9bbbe;
+        }
+        .input {
+            width: 100%;
+            padding: 10px;
+            background: var(--secondary);
+            color: var(--text);
+            border: 1px solid #202225;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .btn:hover {
+            background: #4752c4;
+        }
+        .state {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .state--ok {
+            background: var(--success);
+        }
+        .state--fail {
+            background: var(--error);
+        }
+        .credit {
+            text-align: center;
+            margin-top: 16px;
+            font-size: 10px;
+            color: #72767d;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <span class="label">User Token</span>
+        <input type="password" id="tokenField" class="input" placeholder="mfa.xxx...">
+    </div>
+    <button id="saveBtn" class="btn">Persist Token</button>
+    <div id="statusBlock" class="state state--fail">Offline</div>
+    <div class="credit">@islavikfx</div>
+    <script src="controller.js"></script>
+</body>
+</html>

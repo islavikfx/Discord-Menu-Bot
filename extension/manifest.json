@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Menu Bot",
+  "version": "2.0.0",
+  "description": "Message automation interface for Discord (self-bot). By @islavikfx.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://localhost:2525/*",
+    "https://discord.com/*"
+  ],
+  "background": {
+    "service_worker": "core/sw.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["core/content-core.js"],
+      "css": ["styles/inject.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["styles/inject.css"],
+    "matches": ["https://discord.com/*"]
+  }]
+}
