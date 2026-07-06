@@ -15,6 +15,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 nano .env (edit your discord token)
+python3 src/server_main.py
 ```
 
 #### How to get your Discord token?
