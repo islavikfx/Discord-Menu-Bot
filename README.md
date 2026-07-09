@@ -42,4 +42,8 @@ Menu release on GitHub is not full because the project was written for one perso
 
 Youtube video: https://youtu.be/N1YHLVpPICk
 
-t.me/islavikhome
+Channel: t.me/islavikhome
+
+Community: discord.gg/VTM7NK7wzp
+
+Telegram & Discord contact: @islavikfx
