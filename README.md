@@ -40,10 +40,4 @@ Then open or reload Discord in your browser. Click the '⚡' button in the botto
 
 Menu release on GitHub is not full because the project was written for one person.
 
-Youtube video: https://youtu.be/N1YHLVpPICk
-
-Channel: t.me/islavikhome
-
-Community: discord.gg/VTM7NK7wzp
-
-Telegram & Discord contact: @islavikfx
+Telegram contact: @islavikfx
