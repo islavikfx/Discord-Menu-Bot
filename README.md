@@ -41,3 +41,5 @@ Then open or reload Discord in your browser. Click the '⚡' button in the botto
 Menu release on GitHub is not full because the project was written for one person.
 
 Telegram contact: @islavikfx
+
+Discord contact: @jeddy01759
