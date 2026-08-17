@@ -4,7 +4,7 @@ Chrome extension for Discord self-bot message scheduling with interval control a
 
 ![Menu](https://github.com/islavikfx/Discord-Menu-Bot/blob/main/img/preview.png?raw=true)
 
-Use PyCharm to run it or manually.
+Use PyCharm to run it or manually like this.
 ```
 For Linux:
 sudo apt install python3 git && sudo apt update
@@ -38,8 +38,6 @@ Run: python3 src/server_main.py
 
 Then open or reload Discord in your browser. Click the '⚡' button in the bottom-right corner to open the menu. Discord may show a permission prompt at the top - accept it.
 
-Menu release on GitHub is not full because the project was written for one person.
+Release at GitHub is not full because the project was written for one person.
 
-Telegram contact: @islavikfx
-
-Discord contact: @jeddy01759
+Telegram & Discord: @jeddy01759
