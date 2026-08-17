@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Discord Menu Bot",
   "version": "2.0.0",
-  "description": "Message automation interface for Discord (self-bot). By @islavikfx.",
+  "description": "Chrome extension for Discord self-bot message scheduling with interval control and random delays. By @islavikfx.",
   "permissions": ["storage"],
   "host_permissions": [
     "http://localhost:2525/*",
