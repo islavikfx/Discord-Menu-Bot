@@ -40,4 +40,4 @@ Then open or reload Discord in your browser. Click the '⚡' button in the botto
 
 Release at GitHub is not full because the project was written for one person.
 
-Telegram & Discord: @jeddy01759
+Telegram & Discord: @islavikfx
